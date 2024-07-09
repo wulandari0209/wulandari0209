@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttersweet Cake</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@0,100;;0,300;0,400;0,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Buttersweet<span> Cake</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/menu-6.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu-1.jpg" alt="Product 2" />
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 15K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu-4.jpg" alt="Product 2" />
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 15K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Lebih dari cake, kami hadirkan momen bahagia dalam setiap gigitan.
+          <span>Buttersweet Cake</span>
+        </h1>
+
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+      <div class="mask-container">
+        <main class="content">
+          <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium, enim.
+          </p>
+        </main>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>  Selamat datang di Buttersweet Cake!</h3>
+          <p>
+            Kami adalah toko cake yang didirikan dengan cinta dan passion untuk menghadirkan cake-cake lezat yang bisa dinikmati oleh semua orang. Berawal dari dapur kecil, kami telah berkembang menjadi salah satu toko cake terkemuka, dengan komitmen untuk selalu menyediakan produk-produk berkualitas tinggi dan rasa yang tak terlupakan.
+      </div>
+    </section>
+    <!-- About Section end -->
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Menjelajahi Dunia Manis dengan Ragam Cake! Situs web kami menawarkan
+        berbagai macam cake yang lezat dan unik, dibuat dengan bahan-bahan
+        terbaik dan penuh cinta oleh para pembuat kue yang berpengalaman.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="blackforestcake.jpg"
+            alt="Blackforest Cake"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Blackforest Cake -</h3>
+          <p class="menu-card-price">IDR 60K</p>
+        </div>
+        <div class="menu-card">
+          <img src="vanillacake.jpg" alt="Choco mint" class="menu-card-img" />
+          <h3 class="menu-card-title">- Cheese Cake -</h3>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+        <div class="menu-card">
+          <img src="matchacake.jpg" alt="Vanilla" class="menu-card-img" />
+          <h3 class="menu-card-title">- Matcha Cake -</h3>
+          <p class="menu-card-price">IDR 55K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="redvelvetcake.jpg"
+            alt="Vanilla caramel "
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Strawberry Cake-</h3>
+          <p class="menu-card-price">IDR 70K</p>
+        </div>
+        <div class="menu-card">
+          <img src="fruitcake.jpg" alt="Coklat cone" class="menu-card-img" />
+          <h3 class="menu-card-title">- Fruit Cake -</h3>
+          <p class="menu-card-price">IDR 95K</p>
+        </div>
+        <div class="menu-card">
+          <img src="browncake.jpg" alt="Coklat cake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Coklat cake -</h3>
+          <p class="menu-card-price">IDR 50K</p>
+        </div>
+        <div class="menu-card">
+          <img src="rainbowcake.jpg" alt="Rainbow cake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Rainbow cake -</h3>
+          <p class="menu-card-price">IDR 55K</p>
+        </div>
+        <div class="menu-card">
+          <img src="unicorncake.jpg" alt="Rainbow cake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Unicorn cake -</h3>
+          <p class="menu-card-price">IDR 100K</p>
+      </div>
+      <div class="menu-card">
+        <img src="cupcake.jpg" alt="Rainbow cake" class="menu-card-img" />
+        <h3 class="menu-card-title">- Cupcake -</h3>
+        <p class="menu-card-price">IDR 35K</p>
+    </div>
+    <div class="menu-card">
+      <img src="honeycake.jpg" alt="Rainbow cake" class="menu-card-img" />
+      <h3 class="menu-card-title">- Honey Cake -</h3>
+      <p class="menu-card-price">IDR 35K</p>
+  </div>
+  <div class="menu-card">
+    <img src="redvelvet.jpg" alt="Rainbow cake" class="menu-card-img" />
+    <h3 class="menu-card-title">- Red Velevet Cake -</h3>
+    <p class="menu-card-price">IDR 65K</p>
+</div>
+<div class="menu-card">
+  <img src="creamcake.jpg" alt="Rainbow cake" class="menu-card-img" />
+  <h3 class="menu-card-title">- Cream Cake -</h3>
+  <p class="menu-card-price">IDR 60K</p>
+</div>
+<div class="menu-card">
+  <img src="almondcake.jpg" alt="Rainbow cake" class="menu-card-img" />
+  <h3 class="menu-card-title">- Almond Cake -</h3>
+  <p class="menu-card-price">IDR 80K</p>
+</div>
+<div class="menu-card">
+  <img src="bluberrycheesecake.jpg" alt="Rainbow cake" class="menu-card-img" />
+  <h3 class="menu-card-title">- Bluberry Cake -</h3>
+  <p class="menu-card-price">IDR 85K</p>
+</div>
+<div class="menu-card">
+  <img src="tiramisu.jpg" alt="Rainbow cake" class="menu-card-img" />
+  <h3 class="menu-card-title">- Tiramisu Cake -</h3>
+  <p class="menu-card-price">IDR 75K</p>
+</div>
+    </section>
+    <!-- Products Section end -->
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Apakah Anda memiliki pertanyaan, permintaan khusus, atau hanya ingin berbicara tentang cake? Jangan ragu untuk menghubungi kami melalui salah satu metode di bawah ini. Kami berkomitmen untuk memberikan layanan terbaik dan siap membantu Anda.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.507165744385!2d97.14269647310812!3d5.18264533729503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30479cd2444bd80f%3A0x23482c6534ce5fa0!2sJl.%20Darussalam%2C%20Lancang%20Garam%2C%20Kec.%20Banda%20Sakti%2C%20Kota%20Lhokseumawe%2C%20Aceh!5e0!3m2!1sid!2sid!4v1719425792012!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/buttersweetcakes_qa?igsh=MXJoMXVobDVsNml3bQ=="><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">wulandari</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
